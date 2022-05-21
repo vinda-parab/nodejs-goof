@@ -1,5 +1,5 @@
 # FROM node:6-stretch
-FROM node:16.9.0
+FROM node:gallium-buster
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
